@@ -1,0 +1,6 @@
+@APIBowlers_HostAddress = http://localhost:5152
+
+GET {{APIBowlers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
