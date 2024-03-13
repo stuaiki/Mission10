@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace APIBowlers.Models;
-
+//THis is team model features. getter and setter
 public partial class Team
 {
     public int TeamId { get; set; }

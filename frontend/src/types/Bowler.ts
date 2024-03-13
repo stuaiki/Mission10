@@ -1,3 +1,4 @@
+//This is type file and declare all the types of each features we use in database
 export type Bowler = {
   bowlerId: number;
   bowlerLastName?: string;

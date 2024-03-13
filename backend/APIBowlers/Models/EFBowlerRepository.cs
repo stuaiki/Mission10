@@ -1,7 +1,10 @@
-﻿namespace APIBowlers.Models
+﻿//This is EF file
+namespace APIBowlers.Models
 {
+    // inherite from IBowlerRepository
     public class EFBowlerRepository : IBowlerRepository
     {
+        // create _bowlerContext to access to data
         private BowlingLeagueContext _bowlerContext;
         public EFBowlerRepository(BowlingLeagueContext temp)
         {
@@ -9,6 +12,7 @@
         }
         public IEnumerable<Bowler> Bowlers => _bowlerContext.Bowlers;
 
+        // create function to access to joined data. Use object because we want to access both bowler and team
         public IEnumerable<object> GetAllBowlersWithTeams()
         {
             var joinData = from bowler in _bowlerContext.Bowlers

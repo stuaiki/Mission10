@@ -125,3 +125,4 @@ C:\Users\tkuta\OneDrive - Brigham Young University\Documents\BYU\BYU Winter 2024
 C:\Users\tkuta\OneDrive - Brigham Young University\Documents\BYU\BYU Winter 2024\IS 413\Mission10\backend\APIBowlers\obj\Debug\net8.0\APIBowlers.pdb
 C:\Users\tkuta\OneDrive - Brigham Young University\Documents\BYU\BYU Winter 2024\IS 413\Mission10\backend\APIBowlers\obj\Debug\net8.0\APIBowlers.genruntimeconfig.cache
 C:\Users\tkuta\OneDrive - Brigham Young University\Documents\BYU\BYU Winter 2024\IS 413\Mission10\backend\APIBowlers\obj\Debug\net8.0\ref\APIBowlers.dll
+C:\Users\tkuta\OneDrive - Brigham Young University\Documents\BYU\BYU Winter 2024\IS 413\Mission10\backend\APIBowlers\obj\Debug\net8.0\APIBowlers.sourcelink.json

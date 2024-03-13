@@ -1,9 +1,12 @@
+// import some methods and files
 import { useEffect, useState } from 'react';
 import { Bowler } from '../types/Bowler';
 
+//This is bowlerlist function
 function BowlerList() {
   const [bowlerData, setBowlerData] = useState<Bowler[]>([]);
 
+  //useEffect and json data
   useEffect(() => {
     const fetchBowlerData = async () => {
       const rsp = await fetch('http://localhost:5152/BowlingLeague');
@@ -14,6 +17,7 @@ function BowlerList() {
     fetchBowlerData();
   }, []);
 
+  // header and table of required features from table. In table body, map and loop all the data in database
   return (
     <>
       <div className="row">

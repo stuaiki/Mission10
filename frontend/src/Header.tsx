@@ -1,5 +1,7 @@
+// import logo picture
 import logo from './bowlerComp.png';
 
+//create a header that have logo and title with props to import
 function Header(props: any) {
   return (
     <header className="row header navbar navbar-dark bg-dark">

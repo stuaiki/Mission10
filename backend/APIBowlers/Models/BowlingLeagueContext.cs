@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace APIBowlers.Models;
 
+// This is context file. import dataset
 public partial class BowlingLeagueContext : DbContext
 {
     public BowlingLeagueContext()

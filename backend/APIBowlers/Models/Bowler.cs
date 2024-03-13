@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 
 namespace APIBowlers.Models;
-
+//THis is bowler model features. getter and setter
 public partial class Bowler
 {
     public int BowlerId { get; set; }
